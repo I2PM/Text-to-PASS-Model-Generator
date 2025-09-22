@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY abstract-pass-ont "http://www.imi.kit.edu/abstract-pass-ont#" >
+    <!ENTITY standard-pass-ont "http://www.i2pm.net/standard-pass-ont#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+<rdf:RDF
+   xml:base="http://subjective-me.jimdo.com/s-bpm/processmodels/2025-03-25/Page-1#"
+   xmlns:abstract-pass-ont="http://www.imi.kit.edu/abstract-pass-ont#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:standard-pass-ont="http://www.i2pm.net/standard-pass-ont#"
+>
+  <rdf:Description rdf:about="PayloadDefinition_of_SID_1_MessageSpecification_7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SBD_1_ReceiveStateTransition_3">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#ReceiveTransition"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBD_1_ReceiveStateTransition_3</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">From: E-commerce Website
+Msg: Payment Request</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:hasSourceState rdf:resource="SBD_1_ReceiveState_3"/>
+    <standard-pass-ont:hasTargetState rdf:resource="SBD_1_SendState_4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MessageExchangeList_on_SID_1_StandardMessageConnector_3">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageExchangeList"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MessageExchangeList_on_SID_1_StandardMessageConnector_3</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">SID_1_StandardMessageConnector_3</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_3"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="PASS_Model_Tool-Latex-May_12_2025">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#PASSProcessModel"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://subjective-me.jimdo.com/s-bpm/processmodels/2025-03-25/Page-1#PASS_Model_Tool-Latex-May_12_2025#Model</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">PASS_Model</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:contains rdf:resource="SID_1"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_FullySpecifiedSubject_2"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_FullySpecifiedSubject_3"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_FullySpecifiedSubject_4"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_FullySpecifiedSubject_5"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_FullySpecifiedSubject_6"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_1"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_1"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_1"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_StartState_1"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_SendState_2"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_ReceiveState_3"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_SendState_4"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_ReceiveState_5"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_EndState_6"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_StartStateTransition_1"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_SendStateTransition_2"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_ReceiveStateTransition_3"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_SendStateTransition_4"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_ReceiveStateTransition_5"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_2"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_2"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_2"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_3"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_3"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_3"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_4"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_4"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_4"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_5"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_5"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_5"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_6"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_6"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_6"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_7"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_7"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_7"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_8"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_8"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="PayloadDefinition_of_SID_1_MessageSpecification_2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MessageExchangeList_on_SID_1_StandardMessageConnector_6">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageExchangeList"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MessageExchangeList_on_SID_1_StandardMessageConnector_6</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">SID_1_StandardMessageConnector_6</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_6"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_MessageSpecification_7">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageSpecification"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_MessageSpecification_7</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Order Confirmation Email</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:containsPayloadDescription rdf:resource="PayloadDefinition_of_SID_1_MessageSpecification_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SBD_1_StartState_1">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#StartState"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBD_1_StartState_1</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Decide to place order</standard-pass-ont:hasModelComponentLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_FullySpecifiedSubject_3">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#FullySpecifiedSubject"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_FullySpecifiedSubject_3</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">E-commerce Website</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:hasMaximumSubjectInstanceRestriction rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</standard-pass-ont:hasMaximumSubjectInstanceRestriction>
+    <abstract-pass-ont:hasExecutionCostPerHour rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</abstract-pass-ont:hasExecutionCostPerHour>
+  </rdf:Description>
+  <rdf:Description rdf:about="MessageExchangeList_on_SID_1_StandardMessageConnector_2">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageExchangeList"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MessageExchangeList_on_SID_1_StandardMessageConnector_2</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">SID_1_StandardMessageConnector_2</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_2"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MessageExchangeList_on_SID_1_StandardMessageConnector_4">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageExchangeList"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MessageExchangeList_on_SID_1_StandardMessageConnector_4</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">SID_1_StandardMessageConnector_4</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_4"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_MessageSpecification_3">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageSpecification"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_MessageSpecification_3</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Inventory Check Response</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:containsPayloadDescription rdf:resource="PayloadDefinition_of_SID_1_MessageSpecification_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_StandardMessageConnector_6">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#StandardMessageConnector"/>
+    <standard-pass-ont:hasSender rdf:resource="SID_1_FullySpecifiedSubject_5"/>
+    <standard-pass-ont:hasReceiver rdf:resource="SID_1_FullySpecifiedSubject_3"/>
+    <standard-pass-ont:hasMessageType rdf:resource="SID_1_MessageSpecification_6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_StandardMessageConnector_8">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#StandardMessageConnector"/>
+    <standard-pass-ont:hasSender rdf:resource="SID_1_FullySpecifiedSubject_6"/>
+    <standard-pass-ont:hasReceiver rdf:resource="SID_1_FullySpecifiedSubject_2"/>
+    <standard-pass-ont:hasMessageType rdf:resource="SID_1_MessageSpecification_8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_StandardMessageConnector_3">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#StandardMessageConnector"/>
+    <standard-pass-ont:hasSender rdf:resource="SID_1_FullySpecifiedSubject_4"/>
+    <standard-pass-ont:hasReceiver rdf:resource="SID_1_FullySpecifiedSubject_3"/>
+    <standard-pass-ont:hasMessageType rdf:resource="SID_1_MessageSpecification_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_MessageSpecification_1">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageSpecification"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_MessageSpecification_1</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Order</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:containsPayloadDescription rdf:resource="PayloadDefinition_of_SID_1_MessageSpecification_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MessageExchangeList_on_SID_1_StandardMessageConnector_1">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageExchangeList"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MessageExchangeList_on_SID_1_StandardMessageConnector_1</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">SID_1_StandardMessageConnector_1</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_1"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1">
+    <rdf:type rdf:resource="http://www.imi.kit.edu/abstract-pass-ont#ModelLayer"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">SID_1</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:hasPriorityNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1</standard-pass-ont:hasPriorityNumber>
+    <standard-pass-ont:contains rdf:resource="SID_1_FullySpecifiedSubject_2"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_FullySpecifiedSubject_3"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_FullySpecifiedSubject_4"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_FullySpecifiedSubject_5"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_FullySpecifiedSubject_6"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_1"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_1"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_1"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_StartState_1"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_SendState_2"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_ReceiveState_3"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_SendState_4"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_ReceiveState_5"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_EndState_6"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_StartStateTransition_1"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_SendStateTransition_2"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_ReceiveStateTransition_3"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_SendStateTransition_4"/>
+    <standard-pass-ont:contains rdf:resource="SBD_1_ReceiveStateTransition_5"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_2"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_2"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_2"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_3"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_3"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_3"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_4"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_4"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_4"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_5"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_5"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_5"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_6"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_6"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_6"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_7"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_7"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_7"/>
+    <standard-pass-ont:contains rdf:resource="MessageExchangeList_on_SID_1_StandardMessageConnector_8"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_8"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MessageExchangeList_on_SID_1_StandardMessageConnector_7">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageExchangeList"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MessageExchangeList_on_SID_1_StandardMessageConnector_7</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">SID_1_StandardMessageConnector_7</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_7"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_StandardMessageConnector_2">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#StandardMessageConnector"/>
+    <standard-pass-ont:hasSender rdf:resource="SID_1_FullySpecifiedSubject_3"/>
+    <standard-pass-ont:hasReceiver rdf:resource="SID_1_FullySpecifiedSubject_4"/>
+    <standard-pass-ont:hasMessageType rdf:resource="SID_1_MessageSpecification_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SBD_1_ReceiveStateTransition_5">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#ReceiveTransition"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBD_1_ReceiveStateTransition_5</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">From: Email System
+Msg: Order Confirmation Email</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:hasSourceState rdf:resource="SBD_1_ReceiveState_5"/>
+    <standard-pass-ont:hasTargetState rdf:resource="SBD_1_EndState_6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_StandardMessageConnector_5">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#StandardMessageConnector"/>
+    <standard-pass-ont:hasSender rdf:resource="SID_1_FullySpecifiedSubject_2"/>
+    <standard-pass-ont:hasReceiver rdf:resource="SID_1_FullySpecifiedSubject_5"/>
+    <standard-pass-ont:hasMessageType rdf:resource="SID_1_MessageSpecification_5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SBD_1_SendStateTransition_4">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#SendTransition"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBD_1_SendStateTransition_4</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">To: Payment Gateway
+Msg: Payment</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:hasSourceState rdf:resource="SBD_1_SendState_4"/>
+    <standard-pass-ont:hasTargetState rdf:resource="SBD_1_ReceiveState_5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_MessageSpecification_8">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageSpecification"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_MessageSpecification_8</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Order Confirmation Email</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:containsPayloadDescription rdf:resource="PayloadDefinition_of_SID_1_MessageSpecification_8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_MessageSpecification_4">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageSpecification"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_MessageSpecification_4</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Payment Request</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:containsPayloadDescription rdf:resource="PayloadDefinition_of_SID_1_MessageSpecification_4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SBD_1_SendState_2">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#SendState"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBD_1_SendState_2</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Send Order to E-commerce Website</standard-pass-ont:hasModelComponentLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="SBD_1_ReceiveState_5">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#ReceiveState"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBD_1_ReceiveState_5</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Receive Order Confirmation Email from Email System</standard-pass-ont:hasModelComponentLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="MessageExchangeList_on_SID_1_StandardMessageConnector_8">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageExchangeList"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MessageExchangeList_on_SID_1_StandardMessageConnector_8</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">SID_1_StandardMessageConnector_8</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_8"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_StandardMessageConnector_4">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#StandardMessageConnector"/>
+    <standard-pass-ont:hasSender rdf:resource="SID_1_FullySpecifiedSubject_3"/>
+    <standard-pass-ont:hasReceiver rdf:resource="SID_1_FullySpecifiedSubject_2"/>
+    <standard-pass-ont:hasMessageType rdf:resource="SID_1_MessageSpecification_4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_FullySpecifiedSubject_5">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#FullySpecifiedSubject"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_FullySpecifiedSubject_5</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Payment Gateway</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:hasMaximumSubjectInstanceRestriction rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</standard-pass-ont:hasMaximumSubjectInstanceRestriction>
+    <abstract-pass-ont:hasExecutionCostPerHour rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</abstract-pass-ont:hasExecutionCostPerHour>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_StandardMessageConnector_1">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#StandardMessageConnector"/>
+    <standard-pass-ont:hasSender rdf:resource="SID_1_FullySpecifiedSubject_2"/>
+    <standard-pass-ont:hasReceiver rdf:resource="SID_1_FullySpecifiedSubject_3"/>
+    <standard-pass-ont:hasMessageType rdf:resource="SID_1_MessageSpecification_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_MessageSpecification_2">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageSpecification"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_MessageSpecification_2</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Inventory Check Request</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:containsPayloadDescription rdf:resource="PayloadDefinition_of_SID_1_MessageSpecification_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_FullySpecifiedSubject_6">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#FullySpecifiedSubject"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_FullySpecifiedSubject_6</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Email System</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:hasMaximumSubjectInstanceRestriction rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</standard-pass-ont:hasMaximumSubjectInstanceRestriction>
+    <abstract-pass-ont:hasExecutionCostPerHour rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</abstract-pass-ont:hasExecutionCostPerHour>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_MessageSpecification_6">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageSpecification"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_MessageSpecification_6</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Payment Confirmation</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:containsPayloadDescription rdf:resource="PayloadDefinition_of_SID_1_MessageSpecification_6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SBD_1_SendStateTransition_2">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#SendTransition"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBD_1_SendStateTransition_2</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">To: E-commerce Website
+Msg: Order</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:hasSourceState rdf:resource="SBD_1_SendState_2"/>
+    <standard-pass-ont:hasTargetState rdf:resource="SBD_1_ReceiveState_3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_StandardMessageConnector_7">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#StandardMessageConnector"/>
+    <standard-pass-ont:hasSender rdf:resource="SID_1_FullySpecifiedSubject_3"/>
+    <standard-pass-ont:hasReceiver rdf:resource="SID_1_FullySpecifiedSubject_6"/>
+    <standard-pass-ont:hasMessageType rdf:resource="SID_1_MessageSpecification_7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="MessageExchangeList_on_SID_1_StandardMessageConnector_5">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageExchangeList"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MessageExchangeList_on_SID_1_StandardMessageConnector_5</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">SID_1_StandardMessageConnector_5</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:contains rdf:resource="SID_1_MessageSpecification_5"/>
+    <standard-pass-ont:contains rdf:resource="SID_1_StandardMessageConnector_5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SBD_1_StartStateTransition_1">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#DoTransition"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBD_1_StartStateTransition_1</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">initiate order</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:hasSourceState rdf:resource="SBD_1_StartState_1"/>
+    <standard-pass-ont:hasTargetState rdf:resource="SBD_1_SendState_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_FullySpecifiedSubject_2">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#FullySpecifiedSubject"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_FullySpecifiedSubject_2</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Customer</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:hasMaximumSubjectInstanceRestriction rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</standard-pass-ont:hasMaximumSubjectInstanceRestriction>
+    <abstract-pass-ont:hasExecutionCostPerHour rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</abstract-pass-ont:hasExecutionCostPerHour>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_FullySpecifiedSubject_4">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#FullySpecifiedSubject"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_FullySpecifiedSubject_4</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Inventory System</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:hasMaximumSubjectInstanceRestriction rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</standard-pass-ont:hasMaximumSubjectInstanceRestriction>
+    <abstract-pass-ont:hasExecutionCostPerHour rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</abstract-pass-ont:hasExecutionCostPerHour>
+  </rdf:Description>
+  <rdf:Description rdf:about="SBD_1_EndState_6">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#EndState"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBD_1_EndState_6</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Order confirmed</standard-pass-ont:hasModelComponentLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="SID_1_MessageSpecification_5">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#MessageSpecification"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SID_1_MessageSpecification_5</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Payment</standard-pass-ont:hasModelComponentLabel>
+    <standard-pass-ont:containsPayloadDescription rdf:resource="PayloadDefinition_of_SID_1_MessageSpecification_5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SBD_1_ReceiveState_3">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#ReceiveState"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBD_1_ReceiveState_3</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Receive Payment Request from E-commerce Website</standard-pass-ont:hasModelComponentLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="VisioShapesInternalDataMappingFunction">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.i2pm.net/standard-pass-ont#DataMappingFunction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="PayloadDefinition_of_SID_1_MessageSpecification_3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SBD_1_SendState_4">
+    <rdf:type rdf:resource="http://www.i2pm.net/standard-pass-ont#SendState"/>
+    <standard-pass-ont:hasModelComponentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SBD_1_SendState_4</standard-pass-ont:hasModelComponentID>
+    <standard-pass-ont:hasModelComponentLabel xml:lang="en">Send Payment to Payment Gateway</standard-pass-ont:hasModelComponentLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="PayloadDefinition_of_SID_1_MessageSpecification_1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="PayloadDefinition_of_SID_1_MessageSpecification_6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="PayloadDefinition_of_SID_1_MessageSpecification_8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="PayloadDefinition_of_SID_1_MessageSpecification_4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="PayloadDefinition_of_SID_1_MessageSpecification_5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>

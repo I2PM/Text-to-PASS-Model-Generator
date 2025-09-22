@@ -1,0 +1,22 @@
+# Graph visualization
+graphviz
+pydot
+
+# NLP / subject extraction
+spacy 
+
+# RDF handling  
+rdflib  
+
+# GUI / interactive human-in-the-loop  
+panel  
+
+# OpenAI API access  
+openai  
+
+# Note:  
+# The Python packages above rely on the Graphviz software being installed on your system.  
+# Make sure 'dot' is available in your PATH:  
+# - On Linux: sudo apt install graphviz  
+# - On macOS: brew install graphviz  
+# - On Windows: Download and install from https://graphviz.org/download/  
